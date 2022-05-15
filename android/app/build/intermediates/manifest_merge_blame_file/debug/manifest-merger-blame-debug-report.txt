@@ -1,0 +1,356 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.grabmobileapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\quint\vscode\grabMobileApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\quint\vscode\grabMobileApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Added permissions -->
+12-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:7:5-79
+14-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Optional permissions -->
+15-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:8:5-77
+15-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:11:5-85
+16-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:11:22-82
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.125.0] C:\Users\quint\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.125.0] C:\Users\quint\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+18-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+19-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:22-76
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+20-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <application
+32-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:12:5-39:19
+33        android:name="com.grabmobileapp.MainApplication"
+33-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:13:7-38
+34        android:allowBackup="false"
+34-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:17:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.6.0] C:\Users\quint\.gradle\caches\transforms-3\d97418f29556dc00d9262accd924e8ac\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:15:7-41
+38        android:label="@string/app_name"
+38-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:14:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:16:7-52
+40        android:theme="@style/AppTheme"
+40-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:18:7-38
+41        android:usesCleartextTraffic="true" >
+41-->C:\Users\quint\vscode\grabMobileApp\android\app\src\debug\AndroidManifest.xml:8:9-44
+42        <activity
+42-->C:\Users\quint\vscode\grabMobileApp\android\app\src\debug\AndroidManifest.xml:11:9-111
+43            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+43-->C:\Users\quint\vscode\grabMobileApp\android\app\src\debug\AndroidManifest.xml:11:19-83
+44            android:exported="false" />
+44-->C:\Users\quint\vscode\grabMobileApp\android\app\src\debug\AndroidManifest.xml:11:84-108
+45        <!-- Recommended for Android 9 (API level 28) and lower. -->
+46        <!-- Required for Android 10 (API level 29) and higher. -->
+47        <service
+47-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:21:9-25:19
+48            android:name="com.grabmobileapp.services.LocationTaskService"
+48-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:22:13-57
+49            android:exported="false"
+49-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:23:13-37
+50            android:foregroundServiceType="location" >
+50-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:24:13-53
+51        </service>
+52
+53        <meta-data
+53-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:26:9-123
+54            android:name="com.google.android.geo.API_KEY"
+54-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:26:20-65
+55            android:value="AIzaSyBnza1EnSDlrxP2t57VlNhzkWa_Cm27MsI" />
+55-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:26:66-121
+56
+57        <activity
+57-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:27:7-38:18
+58            android:name="com.grabmobileapp.MainActivity"
+58-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:28:9-37
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+59-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:30:9-118
+60            android:exported="true"
+60-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:33:9-32
+61            android:label="@string/app_name"
+61-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:29:9-41
+62            android:launchMode="singleTask"
+62-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:31:9-40
+63            android:windowSoftInputMode="adjustResize" >
+63-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:32:9-51
+64            <intent-filter>
+64-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:34:9-37:25
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:35:13-65
+65-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:35:21-62
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:36:13-73
+67-->C:\Users\quint\vscode\grabMobileApp\android\app\src\main\AndroidManifest.xml:36:23-70
+68            </intent-filter>
+69        </activity>
+70
+71        <provider
+71-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+73            android:authorities="com.grabmobileapp.androidx-startup"
+73-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+74            android:exported="false" >
+74-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+75            <meta-data
+75-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+76                android:name="androidx.work.WorkManagerInitializer"
+76-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+77                android:value="androidx.startup" />
+77-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+78        </provider>
+79
+80        <service
+80-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+81            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+81-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+82            android:directBootAware="false"
+82-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+83            android:enabled="@bool/enable_system_alarm_service_default"
+83-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+84            android:exported="false" />
+84-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+85        <service
+85-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+86            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+86-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+87            android:directBootAware="false"
+87-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+88            android:enabled="@bool/enable_system_job_service_default"
+88-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+89            android:exported="true"
+89-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+90            android:permission="android.permission.BIND_JOB_SERVICE" />
+90-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+91        <service
+91-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+92            android:name="androidx.work.impl.foreground.SystemForegroundService"
+92-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+93            android:directBootAware="false"
+93-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+94            android:enabled="@bool/enable_system_foreground_service_default"
+94-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+95            android:exported="false" />
+95-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+96
+97        <receiver
+97-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+98            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+98-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+99            android:directBootAware="false"
+99-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+100            android:enabled="true"
+100-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+101            android:exported="false" />
+101-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+102        <receiver
+102-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+103            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+103-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+104            android:directBootAware="false"
+104-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+105            android:enabled="false"
+105-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+106            android:exported="false" >
+106-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+107            <intent-filter>
+107-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+108                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+108-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+108-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+109                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+109-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+109-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+110            </intent-filter>
+111        </receiver>
+112        <receiver
+112-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+113            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+113-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+114            android:directBootAware="false"
+114-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+115            android:enabled="false"
+115-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+116            android:exported="false" >
+116-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+117            <intent-filter>
+117-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+118                <action android:name="android.intent.action.BATTERY_OKAY" />
+118-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+118-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+119                <action android:name="android.intent.action.BATTERY_LOW" />
+119-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+119-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+120            </intent-filter>
+121        </receiver>
+122        <receiver
+122-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+123            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+123-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+124            android:directBootAware="false"
+124-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+125            android:enabled="false"
+125-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+126            android:exported="false" >
+126-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+127            <intent-filter>
+127-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+128                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+128-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+128-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+129                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+129-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+129-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+130            </intent-filter>
+131        </receiver>
+132        <receiver
+132-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+133            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+133-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+134            android:directBootAware="false"
+134-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+135            android:enabled="false"
+135-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+136            android:exported="false" >
+136-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+137            <intent-filter>
+137-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+138                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+138-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+138-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+139            </intent-filter>
+140        </receiver>
+141        <receiver
+141-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+142            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+142-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+143            android:directBootAware="false"
+143-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+144            android:enabled="false"
+144-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+145            android:exported="false" >
+145-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+146            <intent-filter>
+146-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+147                <action android:name="android.intent.action.BOOT_COMPLETED" />
+147-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+147-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+148                <action android:name="android.intent.action.TIME_SET" />
+148-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+148-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+149                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+149-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+149-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+150            </intent-filter>
+151        </receiver>
+152        <receiver
+152-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+153            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+153-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+154            android:directBootAware="false"
+154-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+155            android:enabled="@bool/enable_system_alarm_service_default"
+155-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+156            android:exported="false" >
+156-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+157            <intent-filter>
+157-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+158                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+158-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+158-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+159            </intent-filter>
+160        </receiver>
+161        <receiver
+161-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+162            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+162-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+163            android:directBootAware="false"
+163-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+164            android:enabled="true"
+164-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+165            android:exported="true"
+165-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+166            android:permission="android.permission.DUMP" >
+166-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+167            <intent-filter>
+167-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+168                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+168-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+168-->[androidx.work:work-runtime:2.7.1] C:\Users\quint\.gradle\caches\transforms-3\407994829881682b7d05074f0730e67c\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+169            </intent-filter>
+170        </receiver>
+171
+172        <service
+172-->[androidx.room:room-runtime:2.2.5] C:\Users\quint\.gradle\caches\transforms-3\09259631a56192dbe5d4b02f20911121\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+173            android:name="androidx.room.MultiInstanceInvalidationService"
+173-->[androidx.room:room-runtime:2.2.5] C:\Users\quint\.gradle\caches\transforms-3\09259631a56192dbe5d4b02f20911121\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+174            android:directBootAware="true"
+174-->[androidx.room:room-runtime:2.2.5] C:\Users\quint\.gradle\caches\transforms-3\09259631a56192dbe5d4b02f20911121\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+175            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+175-->[androidx.room:room-runtime:2.2.5] C:\Users\quint\.gradle\caches\transforms-3\09259631a56192dbe5d4b02f20911121\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+176        <uses-library
+176-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+177            android:name="org.apache.http.legacy"
+177-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+178            android:required="false" />
+178-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\quint\.gradle\caches\transforms-3\2e44409f506e91beed4593e214a5b798\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+179
+180        <activity
+180-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\quint\.gradle\caches\transforms-3\c49b025b4bf87fa3dfd65234841329bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\quint\.gradle\caches\transforms-3\c49b025b4bf87fa3dfd65234841329bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\quint\.gradle\caches\transforms-3\c49b025b4bf87fa3dfd65234841329bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\quint\.gradle\caches\transforms-3\c49b025b4bf87fa3dfd65234841329bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+184
+185        <meta-data
+185-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\quint\.gradle\caches\transforms-3\d5d1c2664904913725836b0c8c7f15eb\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+186            android:name="com.google.android.gms.version"
+186-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\quint\.gradle\caches\transforms-3\d5d1c2664904913725836b0c8c7f15eb\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+187            android:value="@integer/google_play_services_version" />
+187-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\quint\.gradle\caches\transforms-3\d5d1c2664904913725836b0c8c7f15eb\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+188    </application>
+189
+190</manifest>
