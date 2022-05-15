@@ -44,6 +44,7 @@ const HomeScreen = ({navigation}) => {
          realm.write(()=>{
                 let userCreated = realm.create('User',{
                     _id: new Realm.BSON.ObjectID(user.user.id),
+                    _partition: user.user.id,
                     username: user.username,
                   })
      })

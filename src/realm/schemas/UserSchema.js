@@ -3,6 +3,7 @@ export default UserSchema = {
     primaryKey:'_id',
     properties:{
         _id:'objectId',
-        username:'string'
+        _partition:'string',
+        username:'string',
     },
 }
