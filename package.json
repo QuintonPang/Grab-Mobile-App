@@ -15,7 +15,6 @@
     "@react-navigation/native-stack": "^6.6.2",
     "@realm/react": "^0.3.0",
     "@reduxjs/toolkit": "^1.8.1",
-    "expo-location": "^14.2.2",
     "react": "17.0.2",
     "react-native": "0.68.2",
     "react-native-actions-sheet": "^0.6.1",

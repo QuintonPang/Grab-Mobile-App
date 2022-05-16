@@ -3,7 +3,7 @@ import React, { createRef, useState, useEffect } from 'react'
 import { mapStyle } from '../global/mapStyle'
 import { carsAround } from '../global/data'
 import MapView, { PROVIDER_GOOGLE,} from 'react-native-maps'; 
-import * as Location from 'expo-location';
+// import * as Location from 'expo-location';
 import tw from 'twrnc'
 import MapViewDirections from 'react-native-maps-directions';
 import {GOOGLE_MAPS_APIKEY} from "@env";
